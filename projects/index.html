@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Projects | aenjon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="前传
+这个页面主要对本人完成或参与完成的部分项目进行规整，主观的将其分为智能硬件、图像算法和TV/移动应用(Android/iOS)三大项，每项以时间为序进行逆向排列，其中某些领域研究较多以专题的形式呈现，如NFC/RFID专题，我的开源，目前只整理了小部分，这是一个长期过程，后续逐一补全。
+
+部分项目有原理或源码分享，请在aenjon博客翻找。
+
+欢迎您告诉我您的任何想法或需求，或者有什么">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Projects">
+<meta property="og:url" content="http://aenjon.com/projects/index.html">
+<meta property="og:site_name" content="aenjon">
+<meta property="og:description" content="前传
+这个页面主要对本人完成或参与完成的部分项目进行规整，主观的将其分为智能硬件、图像算法和TV/移动应用(Android/iOS)三大项，每项以时间为序进行逆向排列，其中某些领域研究较多以专题的形式呈现，如NFC/RFID专题，我的开源，目前只整理了小部分，这是一个长期过程，后续逐一补全。
+
+部分项目有原理或源码分享，请在aenjon博客翻找。
+
+欢迎您告诉我您的任何想法或需求，或者有什么">
+<meta property="og:image" content="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/FingerExtract%E6%B5%8B%E8%AF%95-%E7%99%BD%E5%A4%A9.png">
+<meta property="og:updated_time" content="2016-12-08T00:21:25.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Projects">
+<meta name="twitter:description" content="前传
+这个页面主要对本人完成或参与完成的部分项目进行规整，主观的将其分为智能硬件、图像算法和TV/移动应用(Android/iOS)三大项，每项以时间为序进行逆向排列，其中某些领域研究较多以专题的形式呈现，如NFC/RFID专题，我的开源，目前只整理了小部分，这是一个长期过程，后续逐一补全。
+
+部分项目有原理或源码分享，请在aenjon博客翻找。
+
+欢迎您告诉我您的任何想法或需求，或者有什么">
+    
+
+    
+
+    
+        <link rel="icon" href="/css/images/avatar.png" />
+    
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/open-sans/styles.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/vendor/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    
+    
+        <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css" type="text/css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-77554390-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+    
+        <script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?622a2108abaca144ab683efc8b9d1430";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+    
+
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">aenjon</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/projects/">Projects</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/avatar.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js" type="text/javascript"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/projects/">Projects</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/avatar.png" />
+            <h2 id="name">aenjon</h2>
+            <h3 id="title">Senior Engineer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>ShenZhen, China</span>
+            <a id="follow" target="_blank" href="https://github.com/aenjon">FOLLOW</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                17
+                <span>posts</span>
+            </div>
+            <div class="article-info-block">
+                27
+                <span>tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    <td><a href="http://github.com/aenjon" target="_blank" title="github"><i class="fa fa-github"></i></a></td>
+                    
+                    <td><a href="http://stackoverflow.com/users/1343127/aenjon" target="_blank" title="stack-overflow"><i class="fa fa-stack-overflow"></i></a></td>
+                    
+                    <td><a href="http://weibo.com/aenjon" target="_blank" title="weibo"><i class="fa fa-weibo"></i></a></td>
+                    
+                    <td><a href="https://twitter.com/seraph_sky" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></td>
+                    
+                    <td><a href="/" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></td>
+                    
+                    <td><a href="/atom.xml" target="_blank" title="rss"><i class="fa fa-rss"></i></a></td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="projects-undefined" class="article article-type-projects" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Projects
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/projects/index.html">
+            <time datetime="2015-12-30T15:21:20.000Z" itemprop="datePublished">2015-12-30</time>
+        </a>
+    </div>
+
+
+                    
+                              
+					
+
+					
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+                <div id="toc" class="toc-article">
+                <strong class="toc-title">Catalogue</strong>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#前传"><span class="toc-number">1.</span> <span class="toc-text">前传</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#智能硬件"><span class="toc-number">2.</span> <span class="toc-text">智能硬件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#图像算法"><span class="toc-number">3.</span> <span class="toc-text">图像算法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#OCR文字识别"><span class="toc-number">3.1.</span> <span class="toc-text">OCR文字识别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#手掌手指分割算法"><span class="toc-number">3.2.</span> <span class="toc-text">手掌手指分割算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#织物瑕疵检测系统"><span class="toc-number">3.3.</span> <span class="toc-text">织物瑕疵检测系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#彩色图像分析软件"><span class="toc-number">3.4.</span> <span class="toc-text">彩色图像分析软件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#停车场车位检测算法"><span class="toc-number">3.5.</span> <span class="toc-text">停车场车位检测算法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#TV应用(Android)"><span class="toc-number">4.</span> <span class="toc-text">TV应用(Android)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#手势控制"><span class="toc-number">4.1.</span> <span class="toc-text">手势控制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多屏互动/nScreen"><span class="toc-number">4.2.</span> <span class="toc-text">多屏互动/nScreen</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#家庭云/FamilyCloud"><span class="toc-number">4.3.</span> <span class="toc-text">家庭云/FamilyCloud</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#T-CAST"><span class="toc-number">4.4.</span> <span class="toc-text">T-CAST</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#悬浮球"><span class="toc-number">4.5.</span> <span class="toc-text">悬浮球</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#移动应用(Android/iOS)"><span class="toc-number">5.</span> <span class="toc-text">移动应用(Android/iOS)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#NETS_MConnect(iOS/Android)"><span class="toc-number">5.1.</span> <span class="toc-text">NETS MConnect(iOS/Android)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#NetTest(Android)"><span class="toc-number">5.2.</span> <span class="toc-text">NetTest(Android)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SmartParking(Android)"><span class="toc-number">5.3.</span> <span class="toc-text">SmartParking(Android)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#…"><span class="toc-number">5.4.</span> <span class="toc-text">…</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#NFC/RFID专题"><span class="toc-number">6.</span> <span class="toc-text">NFC/RFID专题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#某省会城市一卡通项目"><span class="toc-number">6.1.</span> <span class="toc-text">某省会城市一卡通项目</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#碰碰米"><span class="toc-number">6.2.</span> <span class="toc-text">碰碰米</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#极控者智能戒指"><span class="toc-number">6.3.</span> <span class="toc-text">极控者智能戒指</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#NFC云分享"><span class="toc-number">6.4.</span> <span class="toc-text">NFC云分享</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#NFC任务管理"><span class="toc-number">6.5.</span> <span class="toc-text">NFC任务管理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#TV_NFC控制"><span class="toc-number">6.6.</span> <span class="toc-text">TV NFC控制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#《Android_NFC开发详解》"><span class="toc-number">6.7.</span> <span class="toc-text">《Android NFC开发详解》</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#我的开源"><span class="toc-number">7.</span> <span class="toc-text">我的开源</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#其它"><span class="toc-number">8.</span> <span class="toc-text">其它</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#后记"><span class="toc-number">9.</span> <span class="toc-text">后记</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#联系我"><span class="toc-number">10.</span> <span class="toc-text">联系我</span></a></li></ol>
+                </div>
+            
+            <h1 id="前传">前传</h1><ul>
+<li><p>这个页面主要对本人完成或参与完成的部分项目进行规整，主观的将其分为智能硬件、图像算法和TV/移动应用(Android/iOS)三大项，每项以时间为序进行逆向排列，其中某些领域研究较多以专题的形式呈现，如<strong>NFC/RFID专题</strong>，<strong>我的开源</strong>，目前只整理了小部分，这是一个长期过程，后续逐一补全。</p>
+</li>
+<li><p>部分项目有原理或源码分享，请在<a href="http://www.aenjon.com" target="_blank" rel="external">aenjon</a>博客翻找。</p>
+</li>
+<li><p>欢迎您告诉我您的任何想法或需求，或者有什么好点子我能帮上忙的也可以与我联系，联系方式见文末。</p>
+</li>
+</ul>
+<hr>
+<h1 id="智能硬件">智能硬件</h1><p>待补充…</p>
+<hr>
+<h1 id="图像算法">图像算法</h1><h2 id="OCR文字识别"><a href=""><strong>OCR文字识别</strong></a></h2><p>…</p>
+<h2 id="手掌手指分割算法"><a href="http://aenjon.com/2014/07/24/CV/%E6%89%8B%E6%8E%8C%E6%89%8B%E6%8C%87%E5%88%86%E5%89%B2%E7%AE%97%E6%B3%95/"><strong>手掌手指分割算法</strong></a></h2><p>该算法是<strong>2014</strong>年时为朋友一家公司做指纹识别做的一套手掌分割手指的算法，可以很好的识别出白天/黑夜场景下摄像头拍照手掌图片分割后获取手指指纹图片输入给指纹识别，更多介绍请<a href="http://aenjon.com/2014/07/24/CV/%E6%89%8B%E6%8E%8C%E6%89%8B%E6%8C%87%E5%88%86%E5%89%B2%E7%AE%97%E6%B3%95/">参考此文</a>（<em>含核心源码</em>），运行效果如下如：</p>
+<p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/FingerExtract%E6%B5%8B%E8%AF%95-%E7%99%BD%E5%A4%A9.png" alt=""><br><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/FingerExtract%E6%89%B9%E9%87%8F2.png" alt=""></p>
+<h2 id="织物瑕疵检测系统"><a href="http://aenjon.com/2012/05/04/CV/%E7%BB%87%E7%89%A9%E7%96%B5%E7%82%B9%E6%A3%80%E6%B5%8B%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%B3%BB%E7%BB%9F%20%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0/"><strong>织物瑕疵检测系统</strong></a></h2><p>该软件是<strong>2011</strong>年研究生生涯的研究课题，“织物疵点检测机器视觉系统研究”，算法+软件+系统，涉及两篇核心算法学术论文，软件平台基于Visual Studio2010 + OpenCV2.1，单张图片总耗时为<strong>241~278 ms</strong>，<a href="http://aenjon.com/2012/05/04/CV/%E7%BB%87%E7%89%A9%E7%96%B5%E7%82%B9%E6%A3%80%E6%B5%8B%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%B3%BB%E7%BB%9F%20%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0/">更多介绍请参考此文</a>，其中<a href="http://www.cnblogs.com/aenjon/archive/2011/08/11/2135291.html" target="_blank" rel="external">关于显著性算法的实践效果请参考此文</a>，软件效果如下：</p>
+<p><img src="http://pic002.cnblogs.com/images/2012/137896/2012050410150071.png" alt=""></p>
+<h2 id="彩色图像分析软件"><a href="http://aenjon.com/2011/08/14/CV/%E5%BD%A9%E8%89%B2%E5%9B%BE%E5%83%8F%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6%20ColorImgSft-V1.0.1.0/"><strong>彩色图像分析软件</strong></a></h2><p>该软件是<strong>2010</strong>年在国内一家大型停车诱导公司做<strong>车位识别</strong>算法时对彩色图像的专题研究整理出的一套彩色图像分析软件，部分原理可<a href="http://aenjon.com/2011/08/01/CV/%E5%BD%A9%E8%89%B2%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2%E4%B8%93%E9%A2%98/">参考此文</a>，软件介绍请<a href="http://aenjon.com/2011/08/14/CV/%E5%BD%A9%E8%89%B2%E5%9B%BE%E5%83%8F%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6%20ColorImgSft-V1.0.1.0/">参考此文</a>，软件效果如下： </p>
+<p><img src="http://images2015.cnblogs.com/blog/137896/201605/137896-20160526201626100-237219052.png" alt="">  </p>
+<h2 id="停车场车位检测算法"><a href=""><strong>停车场车位检测算法</strong></a></h2><p>该算法是2010年给国内一家大型停车诱导公司基于彩色图像的研究的车位识别算法，暂不便公开说明。</p>
+<hr>
+<h1 id="TV应用(Android)">TV应用(Android)</h1><h2 id="手势控制">手势控制</h2><p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/tv-gesture.png" alt="">  </p>
+<h2 id="多屏互动/nScreen">多屏互动/nScreen</h2><p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/tv-nScreen.png" alt=""></p>
+<p><a href="http://zhushou.360.cn/detail/index/soft_id/141604?recrefer=SE_D_TCL%E5%A4%9A%E5%B1%8F%E4%BA%92%E5%8A%A8" target="_blank" rel="external">360应用市场</a><br><a href="http://www.wandoujia.com/apps/com.tcl.multiscreen.interactive" target="_blank" rel="external">豌豆荚</a></p>
+<h2 id="家庭云/FamilyCloud">家庭云/FamilyCloud</h2><p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/%E5%AE%B6%E5%BA%AD%E4%BA%91-1.jpg" alt="">  </p>
+<p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/%E5%AE%B6%E5%BA%AD%E4%BA%91-2.jpg" alt=""> </p>
+<h2 id="T-CAST">T-CAST</h2><p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/T-CAST.jpg" alt=""></p>
+<h2 id="悬浮球">悬浮球</h2><p>该应用曾与极简电视一起参加美国2013 CES展</p>
+<p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/TV-Floating.jpg" alt=""> </p>
+<p>…… 还有很多，后面继续补充。。。。</p>
+<hr>
+<h1 id="移动应用(Android/iOS)">移动应用(Android/iOS)</h1><h2 id="NETS_MConnect(iOS/Android)">NETS MConnect(iOS/Android)</h2><p><img src="http://a3.mzstatic.com/us/r30/Purple69/v4/d2/bf/89/d2bf89d7-616e-300b-f6be-14f152e06f05/screen696x696.jpeg" alt=""></p>
+<p><a href="https://itunes.apple.com/sg/app/nets-mconnect/id998916671?mt=8" target="_blank" rel="external">Apple</a> </p>
+<h2 id="NetTest(Android)">NetTest(Android)</h2><p><a href="https://www.pgyer.com/nettest" target="_blank" rel="external">蒲公英</a></p>
+<h2 id="SmartParking(Android)">SmartParking(Android)</h2><h2 id="…">…</h2><p>…</p>
+<p>太多，待以后一一补充…</p>
+<hr>
+<h1 id="NFC/RFID专题">NFC/RFID专题</h1><h2 id="某省会城市一卡通项目">某省会城市一卡通项目</h2><p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/2016/bdt.jpg" alt="">  </p>
+<h2 id="碰碰米">碰碰米</h2><p><img src="http://pp.myapp.com/ma_pic2/0/shot_10417951_19491884_1_1415122453/550" alt=""></p>
+<p><a href="http://sj.qq.com/myapp/detail.htm?apkName=me.pengpeng.ppme" target="_blank" rel="external">应用宝</a><br><a href="http://zhushou.360.cn/detail/index/soft_id/857247" target="_blank" rel="external">360应用市场</a><br><a href="http://www.wandoujia.com/apps/me.pengpeng.ppme" target="_blank" rel="external">豌豆荚</a><br><a href="http://app.mi.com/details?id=me.pengpeng.ppme" target="_blank" rel="external">小米应用商店</a><br><a href="https://www.pgyer.com/ppme" target="_blank" rel="external">蒲公英</a> </p>
+<h2 id="极控者智能戒指"><a href="http://www.jakcom.com/" target="_blank" rel="external">极控者</a>智能戒指</h2><p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/TimeR.jpg" alt="">  </p>
+<p><a href="https://play.google.com/store/apps/details?id=com.jakcom.timer&amp;hl=zh_CN" target="_blank" rel="external">Google-Play</a><br><a href="http://android.myapp.com/myapp/detail.htm?apkName=com.jakcom.timer" target="_blank" rel="external">应用宝</a><br><a href="http://zhushou.360.cn/detail/index/soft_id/3082395?recrefer=SE_D_Smart%20Ring" target="_blank" rel="external">360应用市场</a><br><a href="http://www.wandoujia.com/apps/com.jakcom.timer" target="_blank" rel="external">豌豆荚</a><br><a href="https://www.pgyer.com/smartring" target="_blank" rel="external">蒲公英</a>  </p>
+<h2 id="NFC云分享">NFC云分享</h2><p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/TimeR1%20.png" alt="">  </p>
+<p><a href="http://android.myapp.com/myapp/detail.htm?apkName=com.imtimer.nfcshareport" target="_blank" rel="external">应用宝</a><br><a href="http://zhushou.360.cn/detail/index/soft_id/2194764?recrefer=SE_D_NFC%E4%BA%91%E5%88%86%E4%BA%AB" target="_blank" rel="external">360应用市场</a><br><a href="http://www.wandoujia.com/apps/com.imtimer.nfcshareport" target="_blank" rel="external">豌豆荚</a></p>
+<h2 id="NFC任务管理">NFC任务管理</h2><p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/TimeR2%20.png" alt=""> </p>
+<p><a href="http://android.myapp.com/myapp/detail.htm?apkName=com.imtimer.nfctaskediter" target="_blank" rel="external">应用宝</a><br><a href="http://zhushou.360.cn/detail/index/soft_id/2194763?recrefer=SE_D_NFC%E4%BA%91%E5%88%86%E4%BA%AB" target="_blank" rel="external">360应用市场</a><br><a href="http://www.wandoujia.com/apps/com.imtimer.nfctaskediter" target="_blank" rel="external">豌豆荚</a></p>
+<h2 id="TV_NFC控制">TV NFC控制</h2><p>该项目曾参加德国2013 <a href="http://b2b.ifa-berlin.com/" target="_blank" rel="external">IFA展</a></p>
+<p><img src="http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/hexo/tv-nfc.png" alt="">  </p>
+<h2 id="《Android_NFC开发详解》"><a href="http://www.ptpress.com.cn/Book.aspx?id=37758" target="_blank" rel="external">《Android NFC开发详解》</a></h2><p>2013年撰写， 国内第一本Android NFC书籍，版权输出宝岛台湾，更多详情请<a href="http://aenjon.com/2014/03/14/NFC/%E3%80%8AAndroid%20NFC%20%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E8%AF%A6%E8%A7%A3%20%E3%80%8B/">参考此文</a></p>
+<hr>
+<h1 id="我的开源">我的开源</h1><ul>
+<li><p><a href="https://github.com/aenjon/android_nfc_book" target="_blank" rel="external"><strong>nfc_wifi_assistant</strong></a>    Android NFC Wifi Auto Connect</p>
+</li>
+<li><p><a href=""><strong>TopAppMonitor</strong></a>  Android前台应用监测  </p>
+</li>
+<li><p><a href="https://github.com/aenjon/PlistAutoCreate" target="_blank" rel="external"><strong>PlistAutoCreate</strong></a> iOS plist和OTA 自动生成脚本</p>
+</li>
+</ul>
+<p>更多待补充…</p>
+<hr>
+<h1 id="其它">其它</h1><p>待补充…</p>
+<hr>
+<h1 id="后记">后记</h1><hr>
+<h1 id="联系我">联系我</h1><p><strong>Email</strong>：    skyserpah00@163.com（合作交流）</p>
+<hr>
+<p>Update time<br>08/31/2016 Update,add nfc<br>06/12/2016 Update,add TV App<br>11/30/2015 Create this page      </p>
+<hr>
+<p><strong><em>版权声明</em></strong></p>
+<font size="1"><br> <a href="http://aenjon.com">aenjon</a> by <a href="http://aenjon.com/about">aenjon</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">Creative Commons BY-NC-ND 4.0 International License</a>.<br>由<a href="http://aenjon.com/about">Bob</a>创作并维护的<a href="http://aenjon.com">aenjon</a>博客采用<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="external">创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>.<br>本文首发于<a href="http://aenjon.com">aenjon</a>博客（ <a href="http://aenjon.com">http://aenjon.com</a> ），版权归作者所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。<br></font>
+
+<p>微信扫码打赏<a href="http://aenjon.com">aenjon</a><br><img src="/css/images/aenjon_wx.png" alt=""> </p>
+<p>如果您愿意捐助其它金额<a href="http://aenjon.com/about">请戳我~~</a>，扫码支付宝/微信</p>
+<p>本文永久链接：<a href="http://aenjon.com/projects/index.html">http://aenjon.com/projects/index.html</a></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more">分享到：</a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a>
+    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
+</div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<style>
+    .bdshare_popup_box {
+        border-radius: 4px;
+        border: #e1e1e1 solid 1px;
+    }
+    .bdshare-button-style0-16 a,
+    .bdshare-button-style0-16 .bds_more {
+        padding-left: 20px;
+        margin: 6px 10px 6px 0;
+    }
+    .bdshare_dialog_list a,
+    .bdshare_popup_list a,
+    .bdshare_popup_bottom a {
+        font-family: 'Microsoft Yahei';
+    }
+    .bdshare_popup_top {
+        display: none;
+    }
+    .bdshare_popup_bottom {
+        height: auto;
+        padding: 5px;
+    }
+</style>
+
+
+</div>
+
+            
+    
+        <a href="http://aenjon.com/projects/index.html#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://aenjon.com/projects/index.html">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+
+    
+</article>
+
+
+    
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+</section>
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">recent</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/10/31/aenjon/Life/而立之年，未开始的创业路/" class="thumbnail">
+    
+    
+        <span style="background-image:url(http://aenjon.com/css/images/avatar.png)" alt="而立之年，未开始的创业路" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/aenjon/">aenjon</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/aenjon/Life/">Life</a></p>
+                            <p class="item-title"><a href="/2016/10/31/aenjon/Life/而立之年，未开始的创业路/" class="title">而立之年，未开始的创业路</a></p>
+                            <p class="item-date"><time datetime="2016-10-30T16:30:30.000Z" itemprop="datePublished">2016-10-31</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/07/18/Tools/Jenkins Gitlab持续集成打包平台搭建/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://jenkins.io/images/226px-Jenkins_logo.svg.png)" alt="Jenkins Gitlab持续集成打包平台搭建" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Tech/">Tech</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Tech/Tools/">Tools</a></p>
+                            <p class="item-title"><a href="/2016/07/18/Tools/Jenkins Gitlab持续集成打包平台搭建/" class="title">Jenkins Gitlab持续集成打包平台搭建</a></p>
+                            <p class="item-date"><time datetime="2016-07-17T16:00:00.000Z" itemprop="datePublished">2016-07-18</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/06/30/iOS/Select all the cell in UITabView or UICollectionView problem/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://devimages.apple.com.edgekey.net/assets/elements/icons/swift/swift-64x64.png)" alt="Select all the cell in UITabView or UICollectionView problem" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Tech/">Tech</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Tech/iOS/">iOS</a></p>
+                            <p class="item-title"><a href="/2016/06/30/iOS/Select all the cell in UITabView or UICollectionView problem/" class="title">Select all the cell in UITabView or UICollectionView problem</a></p>
+                            <p class="item-date"><time datetime="2016-06-29T16:40:20.000Z" itemprop="datePublished">2016-06-30</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/06/19/Android/一种提高Android应用进程存活率新方法/" class="thumbnail">
+    
+    
+        <span style="background-image:url(http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/2016/ps%20grep1.png)" alt="一种提高Android应用进程存活率新方法" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Tech/">Tech</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Tech/Android/">Android</a></p>
+                            <p class="item-title"><a href="/2016/06/19/Android/一种提高Android应用进程存活率新方法/" class="title">一种提高Android应用进程存活率新方法</a></p>
+                            <p class="item-date"><time datetime="2016-06-18T16:40:20.000Z" itemprop="datePublished">2016-06-19</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/05/05/AR_VR/一道Android OpenGL笔试题/" class="thumbnail">
+    
+    
+        <span style="background-image:url(http://7xo4q8.com1.z0.glb.clouddn.com/aenjon/2016/OpenGL-Gallery.jpg)" alt="一道Android OpenGL笔试题" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Tech/">Tech</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Tech/OpenGL/">OpenGL</a></p>
+                            <p class="item-title"><a href="/2016/05/05/AR_VR/一道Android OpenGL笔试题/" class="title">一道Android OpenGL笔试题</a></p>
+                            <p class="item-date"><time datetime="2016-05-05T01:40:20.000Z" itemprop="datePublished">2016-05-05</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/aenjon/">aenjon</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/aenjon/Life/">Life</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/aenjon/Reading/">Reading</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/">Tech</a><span class="category-list-count">13</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/Android/">Android</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/CV/">CV</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/Media/">Media</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/NFC/">NFC</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/OpenGL/">OpenGL</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/Tools/">Tools</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/iOS/">iOS</a><span class="category-list-count">2</span></li></ul></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/AR-VR/" style="font-size: 10px;">AR/VR</a> <a href="/tags/Android/" style="font-size: 20px;">Android</a> <a href="/tags/CI/" style="font-size: 10px;">CI</a> <a href="/tags/CV-MV/" style="font-size: 18px;">CV/MV</a> <a href="/tags/DIP/" style="font-size: 18px;">DIP</a> <a href="/tags/Gitlab/" style="font-size: 10px;">Gitlab</a> <a href="/tags/H264/" style="font-size: 10px;">H264</a> <a href="/tags/Jenkins/" style="font-size: 10px;">Jenkins</a> <a href="/tags/Life/" style="font-size: 16px;">Life</a> <a href="/tags/NFC/" style="font-size: 10px;">NFC</a> <a href="/tags/OpenCV/" style="font-size: 18px;">OpenCV</a> <a href="/tags/OpenGL/" style="font-size: 10px;">OpenGL</a> <a href="/tags/Project/" style="font-size: 10px;">Project</a> <a href="/tags/Reading/" style="font-size: 10px;">Reading</a> <a href="/tags/aenjon/" style="font-size: 16px;">aenjon</a> <a href="/tags/Swift/" style="font-size: 10px;">Swift</a> <a href="/tags/iOS/" style="font-size: 14px;">iOS</a> <a href="/tags/jrtplib/" style="font-size: 10px;">jrtplib</a> <a href="/tags/live555/" style="font-size: 10px;">live555</a> <a href="/tags/图像特征/" style="font-size: 10px;">图像特征</a> <a href="/tags/图像算法/" style="font-size: 18px;">图像算法</a> <a href="/tags/存活率/" style="font-size: 10px;">存活率</a> <a href="/tags/彩色图像/" style="font-size: 12px;">彩色图像</a> <a href="/tags/机器视觉/" style="font-size: 10px;">机器视觉</a> <a href="/tags/流媒体/" style="font-size: 10px;">流媒体</a> <a href="/tags/瑕疵检测/" style="font-size: 10px;">瑕疵检测</a> <a href="/tags/进程/" style="font-size: 10px;">进程</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://www.cnblogs.com/aenjon/">aenjon-cnBlogs</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2016 aenjon<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Modified by <a href="http://aenjon.com">aenjon</a>.Total <span id="busuanzi_value_site_pv"></span> views.
+        </div>
+    </div>
+</footer>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+        
+    
+    <script>
+    var disqus_shortname = 'aenjon';
+    
+    
+    var disqus_url = 'http://aenjon.com/projects/index.html';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+    
+        <script src="/vendor/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>
